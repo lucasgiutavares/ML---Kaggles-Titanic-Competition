@@ -111,6 +111,7 @@ gembarked = titanic_train %>% ggplot(aes(Embarked)) +
 
 grid.arrange(gsex, gprefix, gpclass, gembarked, gcabin, gticket, nrow=3)
 ```
+![](https://image.ibb.co/jXVJTU/Rplot02.png)
 
 Como podemos observar, a distribuição de sobreviventes e não sobreviventes é bastante diferente em categorias nas variáveis Sex, Prefix, Pclass e Embarked.
 Sendo assim, essas categorias podem ser importantes para o modelo.
@@ -133,6 +134,8 @@ gfare = titanic_train %>% ggplot(aes(Fare)) +
 
 grid.arrange(gage, gsibsp, gparch, gfare, nrow=2)
 ```
+
+![](https://image.ibb.co/ewG08U/Rplot01.png)
 
 Aqui percebemos que todas as variáveis parecem ter uma boa relação com Survived. 
 
